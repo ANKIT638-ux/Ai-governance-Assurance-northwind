@@ -48,3 +48,7 @@ framework well enough to apply it to a system I hadn't seen before, not just fol
 - [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework) and the Generative AI Profile (NIST AI 600-1)
 - [OWASP Top 10 for LLM Applications (2025)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - [MITRE ATLAS](https://atlas.mitre.org/)
+
+
+This project has come to fruition with the idea of this github repo: https://github.com/taimurijlal/AI-Security-Projects/tree/main/05-ai-governance-assurance
+
