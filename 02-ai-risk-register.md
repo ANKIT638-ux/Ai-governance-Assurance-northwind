@@ -6,7 +6,7 @@ treatment, owner, and a status leadership can act on. Ratings use a simple 3x3 s
 overengineered on day one doesn't get used. Every risk here traces to a system in the AI
 Inventory and, once mapped, to a control in `03-control-mapping.md`.
  
-| Risk ID | System | Risk description | Source | Likelihood | Impact | Inherent rating | Treatment | Owner | Status |
+| Risk ID | System | Risk description | Source | Likelihood | Impact | Inherent risk | Treatment | Owner | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | **R-001** | AI-002 Nova | **Indirect prompt injection via a customer support ticket causes Nova to disclose another customer's PII** (name, address, order history) that it retrieved from the CRM while resolving the ticket. Attacker embeds hidden instructions in the free-text "issue description" field; Nova reads this as part of its context and follows the injected instruction instead of its system prompt. | Red team finding demonstrated | High | High | **Critical** | Mitigate | Head of Customer Experience / AI Governance Lead | Open — remediation in progress (see traceability thread) |
 | R-002 | AI-003 DevAssist | Coding agent with repo write + sandbox execution is manipulated (via a poisoned issue/PR description or dependency) into exfiltrating secrets from a legacy repo, or opening a PR that introduces a backdoor that passes automated review. | Threat modeling / industry incident pattern | Medium | High | High | Mitigate | VP Engineering | Open |
@@ -26,7 +26,7 @@ preconditions required · High: demonstrated or trivially reproducible
 customer or operational impact, no reporting obligation · High: regulatory notification
 obligation, material financial loss, or reputational/media exposure
  
-**Inherent rating** = likelihood × impact, pre-mitigation. Residual rating (post-control) is
+**Inherent risk** = likelihood × impact, pre-mitigation. Residual rating (post-control) is
 tracked at the individual control/evidence level in `04-evidence-register.md` and rolled up in
 the dashboard.
  
